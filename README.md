@@ -9,7 +9,7 @@ Minitalk projesi, Unix tabanlı işletim sistemlerinde bir sunucu ve bir istemci
 
 <!-- Proje Logosu veya Görseli -->
 <p align="center">
-  <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png" alt="Proje Logo">
+  <a target="blank"><img src="https://i.hizliresim.com/pkbv0xv.png" height="150" width="150" /></a>
 </p>
 
 ## Projenin Amacı
