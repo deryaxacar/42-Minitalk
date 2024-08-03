@@ -1,10 +1,9 @@
 <!-- Proje Başlığı -->
-<h1 align="center"> 42 - Minitalk</h1>
+<h1 align="center">42 - Minitalk 📡</h1>
 
 <!-- Proje Açıklaması -->
 <p align="center">
 Minitalk projesi, Unix tabanlı işletim sistemlerinde bir sunucu ve bir istemci arasında iletişim kurmayı sağlayan bir programdır. Bu iletişim kanalı, Unix'in sinyal mekanizmasını kullanarak oluşturulur. Proje, temel bir konsept olan sinyal işleme ve IPC (Inter-Process Communication - Süreçler Arası İletişim) konularını anlamak ve uygulamak için bir fırsat sunar.
-
 </p>
 
 <!-- Proje Logosu veya Görseli -->
@@ -12,7 +11,7 @@ Minitalk projesi, Unix tabanlı işletim sistemlerinde bir sunucu ve bir istemci
   <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png" alt="Proje Logo">
 </p>
 
-## Projenin Amacı
+## Projenin Amacı 🎯
 
 Minitalk projesinin temel amacı, Unix sinyallerini kullanarak iki süreç arasında iletişim kurmak ve bilgi alışverişi yapmaktır. Bu proje, Unix işletim sistemi hakkında derinlemesine bir anlayış kazanmamıza ve sistem seviyesinde programlama becerilerimizi geliştirmemize yardımcı olur.
 
@@ -22,7 +21,7 @@ Proje, özellikle ağ uygulamalarında ve sunucu-istemci mimarisinde temel bir r
 
 Minitalk projesi, Unix sinyal mekanizmasını kullanarak basit bir iletişim kanalı oluştururken, aynı zamanda temel bir ağ uygulamasının nasıl çalıştığını anlamak için önemli bir fırsat sunar. Bu proje, işletim sistemi ve ağ konularında derinlemesine bir anlayış geliştirmek isteyenler için ideal bir öğrenme aracıdır.
 
-## Kullanım Senaryoları
+## Kullanım Senaryoları 📜
 
 Minitalk projesi, aşağıdaki kullanım senaryolarını içerebilir:
 
@@ -30,32 +29,31 @@ Minitalk projesi, aşağıdaki kullanım senaryolarını içerebilir:
 - Sunucu ve istemci arasında mesaj gönderme
 - İletişim kanalını doğru bir şekilde kurma ve yönetme
 
-## Proje İçeriği
+## Proje İçeriği 📁
 
 Minitalk projesi, aşağıdaki bileşenleri içerebilir:
 
 - **minitalk.h**: Kütüphane dosyası.
 - **server.c**: Sunucu işlevlerini ve sinyal işleyicisini içeren C dosyası.
 - **client.c**: İstemci işlevlerini ve sinyal işleyicisini içeren C dosyası.
-- **utils.c**: Yardımcı işlevlerin ve veri yapılarının bulunduğu c dosyası.
+- **utils.c**: Yardımcı işlevlerin ve veri yapılarının bulunduğu C dosyası.
 - **Makefile**: Projenin derlenmesini ve yürütülmesini otomatikleştirmek için kullanılan bir Makefile.
 
-## Bonus kısım
+## Bonus Kısım  🌟
 
 - **client_bonus.c**: İstemci işlevlerini ve sinyal işleyicisini içeren bonus C dosyası.
-- **minitalk.h**: Kütüphane dosyası.
 - **server_bonus.c**: Sunucu işlevlerini ve sinyal işleyicisini içeren bonus C dosyası.
-- **utils.c**: Bonus kısım için yardımcı işlevlerin ve veri yapılarının bulunduğu c dosyası.
+- **utils_bonus.c**: Bonus kısım için yardımcı işlevlerin ve veri yapılarının bulunduğu C dosyası.
 - **Makefile**: Projenin derlenmesini ve yürütülmesini otomatikleştirmek için kullanılan bir Makefile.
 
-## Gereksinimler
+## Gereksinimler  ⚙️
 
 Minitalk projesini çalıştırmak için aşağıdaki gereksinimlerin sağlanması gerekir:
 
 - Unix tabanlı bir işletim sistemi (Linux, macOS)
 - GCC derleyici
 
-## Kurulum
+## Kurulum  🛠️
 
 Projeyi yerel bir makinede çalıştırmak için aşağıdaki adımları izleyin:
 
@@ -63,7 +61,7 @@ Projeyi yerel bir makinede çalıştırmak için aşağıdaki adımları izleyin
 2. Proje dizinine gidin: `cd minitalk`
 3. Sunucu ve istemciyi derlemek için Makefile'ı çalıştırın: `make`
 
-## Kullanım
+## Kullanım 🚀
 
 Sunucu ve istemciyi çalıştırmak için aşağıdaki adımları izleyin:
 
