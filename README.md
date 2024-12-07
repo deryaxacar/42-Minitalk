@@ -1,69 +1,71 @@
-<!-- Proje Başlığı -->
+<!-- Project Title -->
 <h1 align="center">42 - Minitalk 📡</h1>
 
-<!-- Proje Açıklaması -->
+<!-- Project Description -->
 <p align="center">
-Minitalk projesi, Unix tabanlı işletim sistemlerinde bir sunucu ve bir istemci arasında iletişim kurmayı sağlayan bir programdır. Bu iletişim kanalı, Unix'in sinyal mekanizmasını kullanarak oluşturulur. Proje, temel bir konsept olan sinyal işleme ve IPC (Inter-Process Communication - Süreçler Arası İletişim) konularını anlamak ve uygulamak için bir fırsat sunar.
+The Minitalk project is a program that enables communication between a server and a client in Unix-based operating systems. This communication channel is created using Unix's signal mechanism. The project offers an opportunity to understand and implement basic concepts such as signal handling and IPC (Inter-Process Communication).
 </p>
 
-<!-- Proje Logosu veya Görseli -->
+<!-- Project Logo or Image -->
 <p align="center">
-  <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png" alt="Proje Logo">
+  <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png" alt="Project Logo">
 </p>
 
-## Projenin Amacı 🎯
+## Project Goal 🎯
 
-Minitalk projesinin temel amacı, Unix sinyallerini kullanarak iki süreç arasında iletişim kurmak ve bilgi alışverişi yapmaktır. Bu proje, Unix işletim sistemi hakkında derinlemesine bir anlayış kazanmamıza ve sistem seviyesinde programlama becerilerimizi geliştirmemize yardımcı olur.
+The main goal of the Minitalk project is to establish communication between two processes using Unix signals and facilitate data exchange. This project helps deepen our understanding of Unix operating systems and enhances our system-level programming skills.
 
-Sunucu ve istemci arasındaki iletişim, iki ayrı programın çalıştırılmasıyla gerçekleşir: bir sunucu programı ve bir istemci programı. Sunucu programı, belirli bir sinyal yakalayarak mesajları alır ve işler. İstemci programı ise sunucuya mesaj göndermek için bir sinyal gönderir. Bu şekilde, iki program arasında veri alışverişi yapılabilir.
+Communication between the server and client happens by running two separate programs: a server program and a client program. The server program catches a specific signal to receive and process messages. The client program sends a signal to the server to transmit a message. In this way, data can be exchanged between the two programs.
 
-Proje, özellikle ağ uygulamalarında ve sunucu-istemci mimarisinde temel bir rol oynayan IPC kavramını anlamak için bir fırsat sunar. Ayrıca, Unix işletim sistemlerinin temel özelliklerinden biri olan sinyal mekanizmasını uygulamak ve işlemek için pratik bir deneyim sağlar.
+The project provides an opportunity to understand the concept of IPC, which plays a fundamental role in network applications and client-server architecture. It also offers practical experience in implementing and handling the signal mechanism, one of the core features of Unix operating systems.
 
-Minitalk projesi, Unix sinyal mekanizmasını kullanarak basit bir iletişim kanalı oluştururken, aynı zamanda temel bir ağ uygulamasının nasıl çalıştığını anlamak için önemli bir fırsat sunar. Bu proje, işletim sistemi ve ağ konularında derinlemesine bir anlayış geliştirmek isteyenler için ideal bir öğrenme aracıdır.
+The Minitalk project is an essential learning tool for anyone who wants to develop a deep understanding of operating systems and networking concepts, as it creates a simple communication channel using Unix signals while illustrating how a basic network application works.
 
-## Kullanım Senaryoları 📜
+## Use Cases 📜
 
-Minitalk projesi, aşağıdaki kullanım senaryolarını içerebilir:
+The Minitalk project includes the following use cases:
 
-- Bir sunucu ve istemci oluşturma
-- Sunucu ve istemci arasında mesaj gönderme
-- İletişim kanalını doğru bir şekilde kurma ve yönetme
+- Creating a server and client
+- Sending messages between the server and client
+- Properly establishing and managing the communication channel
 
-## Proje İçeriği 📁
+## Project Structure 📁
 
-Minitalk projesi, aşağıdaki bileşenleri içerebilir:
+The Minitalk project may include the following components:
 
-- **minitalk.h**: Kütüphane dosyası.
-- **server.c**: Sunucu işlevlerini ve sinyal işleyicisini içeren C dosyası.
-- **client.c**: İstemci işlevlerini ve sinyal işleyicisini içeren C dosyası.
-- **utils.c**: Yardımcı işlevlerin ve veri yapılarının bulunduğu C dosyası.
-- **Makefile**: Projenin derlenmesini ve yürütülmesini otomatikleştirmek için kullanılan bir Makefile.
+- **minitalk.h**: Header file containing function prototypes and necessary definitions.
+- **server.c**: C file containing server functions and signal handlers.
+- **client.c**: C file containing client functions and signal handlers.
+- **utils.c**: C file containing utility functions and data structures.
+- **Makefile**: Makefile used to automate the compilation and execution of the project.
 
-## Bonus Kısım  🌟
+## Bonus Section 🌟
 
-- **client_bonus.c**: İstemci işlevlerini ve sinyal işleyicisini içeren bonus C dosyası.
-- **server_bonus.c**: Sunucu işlevlerini ve sinyal işleyicisini içeren bonus C dosyası.
-- **utils_bonus.c**: Bonus kısım için yardımcı işlevlerin ve veri yapılarının bulunduğu C dosyası.
-- **Makefile**: Projenin derlenmesini ve yürütülmesini otomatikleştirmek için kullanılan bir Makefile.
+- **client_bonus.c**: Bonus C file containing client functions and signal handlers.
+- **server_bonus.c**: Bonus C file containing server functions and signal handlers.
+- **utils_bonus.c**: C file containing bonus section utility functions and data structures.
+- **Makefile**: Makefile used to automate the compilation and execution of the project.
 
-## Gereksinimler  ⚙️
+## Requirements ⚙️
 
-Minitalk projesini çalıştırmak için aşağıdaki gereksinimlerin sağlanması gerekir:
+To run the Minitalk project, the following requirements must be met:
 
-- Unix tabanlı bir işletim sistemi (Linux, macOS)
-- GCC derleyici
+- Unix-based operating system (Linux, macOS)
+- GCC compiler
 
-## Kurulum  🛠️
+## Installation 🛠️
 
-Projeyi yerel bir makinede çalıştırmak için aşağıdaki adımları izleyin:
+Follow these steps to run the project locally:
 
-1. Repoyu yerel makinenize klonlayın: `git clone https://github.com/deryaxacar/minitalk.git`
-2. Proje dizinine gidin: `cd minitalk`
-3. Sunucu ve istemciyi derlemek için Makefile'ı çalıştırın: `make`
+1. Clone the repository to your local machine: `git clone https://github.com/deryaxacar/minitalk.git`
+2. Navigate to the project directory: `cd minitalk`
+3. Run the Makefile to compile the server and client: `make`
 
-## Kullanım 🚀
+## Usage 🚀
 
-Sunucu ve istemciyi çalıştırmak için aşağıdaki adımları izleyin:
+To run the server and client, follow these steps:
 
-1. Sunucuyu başlatın: `./server`
-2. İstemciyi başlatın ve sunucuya bir mesaj gönderin: `./client [sunucu_pid] [mesaj]`
+1. Start the server: `./server`
+2. Start the client and send a message to the server: `./client [server_pid] [message]`
+
+---
