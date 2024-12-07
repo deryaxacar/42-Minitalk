@@ -69,3 +69,5 @@ To run the server and client, follow these steps:
 2. Start the client and send a message to the server: `./client [server_pid] [message]`
 
 ---
+
+This README was prepared by Derya ACAR.
