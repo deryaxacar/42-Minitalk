@@ -70,5 +70,5 @@ To run the server and client, follow these steps:
 
 ---
 
-<p align="center">© 2025 This project was created by Derya ACAR.</p>
+<p align="center">2025 This project was created by Derya ACAR.</p>
 
