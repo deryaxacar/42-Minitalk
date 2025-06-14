@@ -6,9 +6,9 @@
 The Minitalk project is a program that enables communication between a server and a client in Unix-based operating systems. This communication channel is created using Unix's signal mechanism. The project offers an opportunity to understand and implement basic concepts such as signal handling and IPC (Inter-Process Communication).
 </p>
 
-<!-- Project Logo or Image -->
+<!-- [Project Logo or Image](https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png) -->
 <p align="center">
-  <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png" alt="Project Logo">
+  <img src="https://github.com/deryaxacar/42-Minitalk/blob/main/minitalk.png" alt="Project Logo">
 </p>
 
 ## Project Goal 🎯
