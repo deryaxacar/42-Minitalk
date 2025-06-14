@@ -8,7 +8,7 @@ The Minitalk project is a program that enables communication between a server an
 
 <!-- [Project Logo or Image](https://github.com/ayogun/42-project-badges/blob/main/badges/minitalkm.png) -->
 <p align="center">
-  <img src="https://github.com/deryaxacar/42-Minitalk/blob/main/minitalk.png" alt="Project Logo">
+  <a target="blank"><img src="https://github.com/deryaxacar/42-Minitalk/blob/main/minitalk.png" height="150" width="150" /></a>
 </p>
 
 ## Project Goal 🎯
